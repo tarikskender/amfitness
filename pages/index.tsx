@@ -21,7 +21,10 @@ export default function Home() {
         <Image src="/logo.png" width={450} height={150} alt="Logo" />
         <h1>COMING SOON</h1>
         <hr className={styles.hr} />
-        <h3>23.03.2023</h3>
+        <h3 className={styles.h3titles}>23.03.2023</h3>
+        <h3 className={(styles.h3titles, styles.emailTitle)}>
+          am_fitness0@yahoo.com
+        </h3>
       </div>
     </>
   );
